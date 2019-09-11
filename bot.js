@@ -6,39 +6,39 @@ const math = require('math-expression-evaluator');   //WESO#0001
 const figlet = require('figlet');   //WESO#0001
 const fs = require('fs');  //WESO#0001
 const ms = require('ms');  //WESO#0001
-const prefix = '-'
+const prefix = '$'
 
 client.on('message', msg => {  //WESO#0001
     if (msg.content === 'باك') {  //WESO#0001
-      msg.reply('** :wink: وِلِـكُمِـ ﻧَوِرُتْ   :sparkling_heart:**');  //WESO#0001
+      msg.reply('** :wink: ولكم   :sparkling_heart:**');  //WESO#0001
     }
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'ويسو') {  //WESO#0001
-      msg.reply('**ويسو مات**');  //WESO#0001
+    if (msg.content === 'السلام عليكم') {  //WESO#0001
+      msg.reply('**و عليكم السلام**');  //WESO#0001
     }
   });
 
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**لاتحتك يا اخوي لو سمحت**');  //WESO#0001
+    if (msg.content === 'هلا') {  //WESO#0001
+      msg.reply('**اهلين**');  //WESO#0001
     }
   });
   
 
   client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**حبك برص يا سافل**');  //WESO#0001
+    if (msg.content === 'برب') {  //WESO#0001
+      msg.reply('**تيت**');  //WESO#0001
     }
   });
 
 
   
    client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'هلا') {  //WESO#0001
-      msg.reply('**هلا بيك :heart: **');  //WESO#0001
+    if (msg.content === 'back') {  //WESO#0001
+      msg.reply('**wlc :heart: **');  //WESO#0001
     }
   });
 

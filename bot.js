@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' BAD Is The Best ','Just Do It'];
+    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' PvPex The Best Server 💗 ','Bot By Developer Team PvPex'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -4355,7 +4355,7 @@ client.on("message", message => {
 6)ممنوع الصور الاباحيه او اى شي مخل بالادب 
 7)ممنوع نشر صور من  مواقع التواصل الاجتماعى  بحقوق ملكيه
 8)ممنوع طلب الرتبه والرتب تكون بالتفاعل
-9)لاستخدام البوت  فى - #cmd
+9)لاستخدام البوت  فى - #bot_commands
 __
 
 @everyone || @here

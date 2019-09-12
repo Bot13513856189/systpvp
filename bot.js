@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' PvPex The Best Server 💗 ','Bot By Developer Team PvPex'];
+    var setGame = [' -help',`Developer By IM Ahmad#9998`,`PvPex System Bot`,' PvPex Best Server 💗 ','Hello do You Want Help ? : -help'];
     var i = -1;
     var j = 0;
     setInterval(function (){

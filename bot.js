@@ -2018,7 +2018,7 @@ client.on('message' , message => {
        .setAuthor(message.author.username, message.author.avatarURL)
        .setDescription('📬 تم ارسال الرسالة الى صاحب البوت بنجاح')
        .setThumbnail(message.author.avatarURL)
-       .setFooter("ScriptBot | System")
+       .setFooter("PvPexBot | System")
                                                   
   
   message.channel.send(embed);
@@ -2117,7 +2117,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('Info WESO.Bot.')
+            .setTitle('PvPex.Bot.')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -2660,7 +2660,7 @@ client.on('guildCreate', guild => {
       guild.owner.send(embed)
 });
 
-const devs = ["524901565472047116"]
+const devs = ["519141956677271572"]
  
 const adminprefix = "#";
 client.on('message', message => {
@@ -2708,7 +2708,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('WESO.Bot' ,
+.addField('PvPexBot' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -3681,7 +3681,7 @@ reaction1.on("collect", r => {
 『-rules ====> يعرض لك قوانين السيرفر
 『-v2min ====> لصنع روم صوتي مؤقت
 『-inv ====> لدعوة البوت الى سيرفرك
-『 By ====> WESO#0001
+『 By ====> 🥂 Rex IM Ahmad 🖤#9998
 **
 `)
    message.author.sendEmbed(embed)
@@ -3739,7 +3739,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> WESO#0001
+『 By ====> 🥂 Rex IM Ahmad 🖤#9998
 **
 `)
    message.author.sendEmbed(embed)
@@ -3777,7 +3777,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> WESO#0001
+『 By ====> 🥂 Rex IM Ahmad 🖤#9998
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')

@@ -3254,7 +3254,7 @@ if(!message.channel.guild) return message.reply(' ');
  
     let thisFalse;
  
-    message.channel.send('📝 **| من فضلك اكتب اسمك الأن... ✏ **').then(msg => {
+    message.channel.send('📝 **| من فضلك اكتب اسمك الكريم...  **').then(msg => {
  
  
  
@@ -3298,7 +3298,7 @@ if(!message.channel.guild) return message.reply(' ');
  
             let boi2;
  
-            msg.edit('🤵 **| ما اسم ارتبه التى تريد الحصول عليها ولماذا؟... ✏ **').then(msg => {
+            msg.edit('🤵 **| لو سمحت وش اسم الرتبة الي تبيها ؟... ✏ **').then(msg => {
  
  
  
@@ -3681,7 +3681,7 @@ reaction1.on("collect", r => {
 『-rules ====> يعرض لك قوانين السيرفر
 『-v2min ====> لصنع روم صوتي مؤقت
 『-inv ====> لدعوة البوت الى سيرفرك
-『 By ====> 🥂 Rex IM Ahmad 🖤#9998
+『 By ====> xIMAhmadx#9998
 **
 `)
    message.author.sendEmbed(embed)
@@ -3739,7 +3739,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> 🥂 Rex IM Ahmad 🖤#9998
+『 By ====> xIMAhmadx#9998
 **
 `)
    message.author.sendEmbed(embed)
@@ -3777,7 +3777,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> 🥂 Rex IM Ahmad 🖤#9998
+『 By ====> xIMAhmadx#9998
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')

@@ -15,7 +15,7 @@ client.on('message', msg => {  //WESO#0001
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'السلام عليكم') {  //WESO#0001
+    if (msg.content === 'سلام عليكم') {  //WESO#0001
       msg.reply('**و عليكم السلام**');  //WESO#0001
     }
   });
